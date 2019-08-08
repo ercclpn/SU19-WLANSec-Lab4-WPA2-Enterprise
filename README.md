@@ -39,19 +39,32 @@ How to run the attack:
 
 > **_Question :_** What options did you have to modify in the hostapd-wpe configuration file in order to make the attack work ?
 > 
-> **_Answer:_** 
+> **_Answer:_** We change the ssid line to give a specific name for our AP and the channel number (channel 6) to avoid to overload the channel 1.    
+Changed lines : ![image](images/img3.PNG)
 
 ---
 
 > **_Question:_** What type of hash did you capture ?
 > 
-> **_Answer:_** 
+> **_Answer:_** We capture a NETNTLM hash   
+AP Log : ![image](images/img1.PNG)
+Hash cracked : ![image](images/img2.PNG)
+
+
 
 ---
 
 > **_Question:_** Which authentication methods are supported by hostapd-wpe ?
 > 
 > **_Réponse:_**
+> 1. EAP-FAST/MSCHAPv2 (Phase 0)
+> 2. PEAP/MSCHAPv2
+> 3. EAP-TTLS/MSCHAPv2
+> 4. EAP-TTLS/MSCHAP
+> 5. EAP-TTLS/CHAP
+> 6. EAP-TTLS/PAP
+>
+> source : https://tools.kali.org/wireless-attacks/hostapd-wpe
 
 
 ## In case of problems...
