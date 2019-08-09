@@ -4,6 +4,10 @@
 
 __Korean/Swiss hybrid teams are highly encouraged__
 
+## Student's name
+
+Eric Tran - Sangyoon Cha - Alexandre Monteiro Marques
+
 ### For this first part, you will need to:
 
 - Implement a WPE (Wireless Pwnage Edition) attack agains a WPA Enterprise network
